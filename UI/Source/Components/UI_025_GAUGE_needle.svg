@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="24" viewBox="0 0 124 24" role="img" aria-label="UI_025_GAUGE_needle"><defs>
+<pattern id="papergrain" width="19" height="19" patternUnits="userSpaceOnUse"><path d="M1 4h3M11 14h2M6 10h1M16 3h1" stroke="#887A5A" stroke-width=".5" opacity=".5"/></pattern>
+<pattern id="felt" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1h7M1 0v7" stroke="#728069" opacity=".1" stroke-width=".5"/></pattern>
+</defs><line x1="112" y1="12" x2="12" y2="12" stroke="#B64F49" stroke-width="4" /><circle cx="112" cy="12" r="8" fill="#25353A" stroke="none" stroke-width="1" /></svg>

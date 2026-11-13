@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Звезда-57 — 35 элементов интерфейса</title>
+  <meta name="description" content="Новый комплект UI Звезды-57: 35 редактируемых макетов, состояния, PNG и SVG для передачи в Unity.">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="masthead"><a class="wordmark" href="../">ЗВЕЗДА<span>—57</span></a><span class="edition">БЮРО ОСОБОГО КОНТРОЛЯ<br>КАТАЛОГ ИНТЕРФЕЙСА / РЕДАКЦИЯ 02</span><a class="header-link" href="manifest.json" download>Манифест ↓</a></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">БУМАГА. МЕТАЛЛ. ИНФОРМАЦИЯ.</p><h1>Интерфейс<br>на своём месте.</h1><p class="lead">35 элементов «Звезды-57» в едином визуальном языке. Документы остаются бумагами, карта — прибором, а каждое действие — понятным.</p></div><figure class="cover"><img src="Previews/720p/UI_019_MAP.png" alt="Новый экран оперативной карты" width="1280" height="720"><figcaption><span>UI-019 / ОПЕРАТИВНАЯ КАРТА</span><span>1920 × 1080</span></figcaption></figure></section>
+    <section class="toolbar" aria-label="Фильтры каталога"><div class="count"><strong id="count">35</strong><span>элементов<br>по спецификации</span></div><label class="search"><span class="sr-only">Поиск по названию или ID</span><input id="search" type="search" placeholder="Название или UI-019…" autocomplete="off"></label><label class="priority"><span class="sr-only">Приоритет</span><select id="priority"><option value="all">Все приоритеты</option><option>P0</option><option>P1</option><option>P2</option></select></label></section>
+    <nav id="groups" class="groups" aria-label="Разделы интерфейса"></nav>
+    <section id="catalog" class="catalog" aria-label="Макеты интерфейса"></section>
+    <p class="empty" id="empty" hidden>Совпадений нет. Попробуйте другое название или ID.</p>
+    <section class="handoff"><p class="eyebrow">ДЛЯ ПЕРЕДАЧИ В РАЗРАБОТКУ</p><h2>Исходники, которые можно менять.</h2><p>SVG содержат редактируемый текст. PNG — изображения для просмотра. Динамические надписи в игре выводятся отдельно. Иконки, подложки и оттиски доступны с прозрачностью.</p><div class="handoff-links"><a href="README.md">Как использовать в Unity ↗</a><a href="Materials/design-tokens.json" download>Палитра и размеры ↓</a><a href="Previews/overview.png" target="_blank" rel="noopener">Все 35 на одном листе ↗</a></div></section>
+  </main>
+  <footer><span>ЗВЕЗДА-57 / КАТАЛОГ UI</span><span>35 элементов · SVG + PNG · 1080p и 720p</span></footer>
+  <dialog id="viewer" aria-labelledby="viewer-title"><div class="viewer-head"><div><span id="viewer-id" class="eyebrow"></span><h2 id="viewer-title"></h2></div><button id="close" type="button" aria-label="Закрыть просмотр">Закрыть ×</button></div><div class="viewer-image"><img id="full" alt="" width="1920" height="1080"></div><div id="variants" class="variants" hidden></div><div class="viewer-detail"><div><h3>Размещение и работа</h3><p id="location"></p><p id="behavior"></p></div><div><h3>Передача в Unity</h3><p id="handoff"></p><div class="downloads"><a id="svg-link" download>SVG ↓</a><a id="png-link" download>PNG 1080p ↓</a><a id="small-link" download>PNG 720p ↓</a></div></div></div><div class="viewer-nav"><button id="prev" type="button">← Предыдущий</button><span id="position"></span><button id="next" type="button">Следующий →</button></div></dialog>
+  <script type="module" src="gallery.js"></script>
+</body></html>

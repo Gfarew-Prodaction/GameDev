@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="240" viewBox="0 0 650 240" role="img" aria-label="Звезда 57"><defs>
+<pattern id="papergrain" width="19" height="19" patternUnits="userSpaceOnUse"><path d="M1 4h3M11 14h2M6 10h1M16 3h1" stroke="#887A5A" stroke-width=".5" opacity=".5"/></pattern>
+<pattern id="felt" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1h7M1 0v7" stroke="#728069" opacity=".1" stroke-width=".5"/></pattern>
+</defs><text x="0" y="105" font-family="Georgia, serif" font-size="100" fill="#F5EFE0" font-weight="400" text-anchor="start" letter-spacing="0" >ЗВЕЗДА</text><text x="5" y="215" font-family="Georgia, serif" font-size="96" fill="#CB9E69" font-weight="400" text-anchor="start" letter-spacing="0" >— 57</text></svg>

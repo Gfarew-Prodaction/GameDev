@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="86" viewBox="0 0 184 86" role="img" aria-label="UI_011_TAB_active"><defs>
+<pattern id="papergrain" width="19" height="19" patternUnits="userSpaceOnUse"><path d="M1 4h3M11 14h2M6 10h1M16 3h1" stroke="#887A5A" stroke-width=".5" opacity=".5"/></pattern>
+<pattern id="felt" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1h7M1 0v7" stroke="#728069" opacity=".1" stroke-width=".5"/></pattern>
+</defs><rect x="0" y="0" width="182" height="84" rx="2" fill="#CB9E69" stroke="#6D705D" stroke-width="1" /></svg>

@@ -1,0 +1,43 @@
+{
+  "colors": {
+    "navy": "#172C3A",
+    "green": "#244339",
+    "amber": "#CB9E69",
+    "paper": "#F5EFE0",
+    "red": "#B64F49",
+    "mint": "#3A998A",
+    "ink": "#25353A",
+    "muted": "#B8B8A9",
+    "brass": "#82704F"
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "safeMargin": 48
+  },
+  "type": {
+    "body": 24,
+    "heading": 44,
+    "caption": 18,
+    "font": "Arial, sans-serif",
+    "headingFont": "Georgia, serif"
+  },
+  "button": {
+    "states": [
+      "normal",
+      "hover",
+      "pressed",
+      "selected",
+      "disabled"
+    ],
+    "minHitArea": 48,
+    "nineSliceBorder": 16
+  },
+  "motion": {
+    "hoverMs": 100,
+    "viewLabelMs": 1600,
+    "alertPulseMs": 1800,
+    "reducedMotion": true
+  },
+  "text": "All dynamic labels are separate text nodes. PNG artboards are previews only."
+}
