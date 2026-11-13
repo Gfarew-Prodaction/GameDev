@@ -1,0 +1,14 @@
+.dimension-guide{padding:0 0 30px}
+.dimension-guide>p:not(.eyebrow){max-width:950px;color:var(--muted);font-size:14px;line-height:1.8}
+.dimension-reference{display:flex;flex-wrap:wrap;gap:12px 28px;font-size:12px;color:var(--muted)}
+.dimension-reference strong{font-weight:400;color:var(--paper)}
+.ui-card{align-self:start}
+.card-dimensions{font-size:13px;line-height:1.6;color:var(--paper);margin:10px 0 0;overflow-wrap:anywhere}
+.card-dimensions span{color:var(--muted)}
+.dimensions{padding:18px 0 22px;margin-bottom:20px;border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)}
+.dimensions h3{font-size:12px;font-weight:400;letter-spacing:1.3px;color:var(--amber);margin:0 0 16px}
+.dimensions dl{display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;margin:0}
+.dimensions dt{font-size:12px;color:var(--muted);margin-bottom:8px}
+.dimensions dd{font-size:14px;line-height:1.65;margin:0;overflow-wrap:anywhere}
+.dimensions>p{font-size:11px;color:var(--muted);line-height:1.7;margin:16px 0 0}
+@media(max-width:800px){.dimensions dl{grid-template-columns:1fr;gap:16px}.dimension-reference{gap:8px 20px}.dimensions{padding:16px 0}.dimensions h3{font-size:11px}}

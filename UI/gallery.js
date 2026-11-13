@@ -1,5 +1,5 @@
 const $ = s => document.querySelector(s);
-const {items} = await fetch('manifest.json').then(r => {
+const {items} = await fetch('manifest.json?v=dimensions-20261113').then(r => {
   if (!r.ok) throw new Error('Не удалось загрузить каталог');
   return r.json();
 });
@@ -30,7 +30,10 @@ function render(){
     const kind=document.createElement('span');kind.textContent='SVG + PNG';
     const p=document.createElement('span');p.className='p';p.textContent=item.priority;meta.append(id,kind,p);
     const title=document.createElement('h2');title.textContent=item.name;
-    b.append(thumb,meta,title);b.addEventListener('click',()=>open(item));$('#catalog').append(b);
+    const size=document.createElement('p');size.className='card-dimensions';
+    const sizeLabel=document.createElement('span');sizeLabel.textContent='На экране · ';
+    size.append(sizeLabel,document.createTextNode(item.dimensions.summary));
+    b.append(thumb,meta,title,size);b.addEventListener('click',()=>open(item));$('#catalog').append(b);
   }
 }
 function setVariant(key,button){
@@ -47,6 +50,9 @@ function open(item){
   current=items.indexOf(item);$('#viewer-id').textContent=`${item.id} / ${item.priority}`;
   $('#viewer-title').textContent=item.name;$('#full').alt=item.name;
   $('#location').textContent=item.location;$('#behavior').textContent=item.behavior;$('#handoff').textContent=item.handoff;
+  $('#screen-size').textContent=item.dimensions.screen;
+  $('#screen-position').textContent=item.dimensions.position;
+  $('#export-size').textContent=item.dimensions.export;
   $('#position').textContent=`${String(current+1).padStart(2,'0')} / 35`;
   $('#variants').replaceChildren();$('#variants').hidden=item.number!==30;
   if(item.number===30){
